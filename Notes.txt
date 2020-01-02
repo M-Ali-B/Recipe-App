@@ -1,0 +1,18 @@
+routerLink = "index" // will pass the 'index'  to the link i.e. www.localhost/index
+/ wont be added autmatically you have to add it in the Routes of your routing modules.
+
+[routerLink] = "index" // will pass the value of the variable index to the Link
+
+[routerLink] = ["index"] i dont know but it somewhat function like previous one ======= >  [routerLink] = "index"  
+
+
+	******routerLink is used in anchor tags*********
+
+Tip : 
+always add static routes before dynamic routes in Routes arrays i.e.
+
+"new"   -> static
+":id"   -> dynamic
+
+
+router: Router -> it is used to navigate just like routerLink but it is used inside ts methods 
